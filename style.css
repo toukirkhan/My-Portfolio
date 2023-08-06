@@ -1,6 +1,10 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container {
   padding: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .intro {
@@ -60,4 +64,22 @@ p {
 
 .dynamic-colour {
   color: bisque;
+}
+
+.image-row {
+  display: flex;
+}
+
+.image-row img {
+  width: 24%;
+  margin: 8px;
+  border: 1px;
+}
+
+.description {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
