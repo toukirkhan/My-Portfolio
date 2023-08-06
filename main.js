@@ -1,10 +1,10 @@
 const dynamicContent = document.getElementById("dynamictext");
 
-const phrases = ["Learner...", "Web Developer...", "Human Being...", "Student at SSTC..."]
+const phrases = ["Community Enthusiast...", "Web Developer...", "Open-Source Contributor...", "Human Being...", "Student at SSTC..."]
 let pharseIndex = 0;
 let letterIndex = 0;
 const typingSpeed = 150;
-const erasingSpeed = 50;
+const erasingSpeed = 100;
 
 function printLetters(phrase) {
 
